@@ -5,7 +5,7 @@ var params = UrlParams.get()
 
 function init(){
   for(var x in params){
-    Cookie.set(x,params[x],1)
+    Cookies.set(x,params[x],1)
   }
 }
 
